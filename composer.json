@@ -1,0 +1,23 @@
+{
+  "name": "reaway/think-paginator-driver",
+  "type": "library",
+  "description": "thinkphp paginator driver",
+  "keywords": [],
+  "homepage": "https://github.com/reaway/thinkphp-paginator-driver",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "reaway",
+      "email": "reaway@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0",
+    "topthink/think-orm": "^3.0|^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Think\\Component\\Paginator\\": "src/"
+    }
+  }
+}
